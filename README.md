@@ -10,33 +10,95 @@
  4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
  
  ## PROCEDURE
- 1.	Open new file and then select sketch icon.
- 2.	Select the plane for sketching. 
- 3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch.
  
- ![image](https://user-images.githubusercontent.com/113594316/198232594-2187c1c1-4e85-437f-99f7-263bb1a3e968.png)
- 4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+ Step 1 – Set Up Reference Axes and Base Grid
  
- ![image](https://user-images.githubusercontent.com/113594316/198232771-48e6582d-4410-430a-a9d4-70e400255580.png)
- 
- 5.	Use inspect feature to measure the dimensions of sketch.
- 
- ![image](https://user-images.githubusercontent.com/113594316/198232845-1608e574-732c-44b2-9921-39e920b70e2e.png)
- 
- 6.	After finishing the sketch use finish sketch option to finalize the sketch.
- ![image](https://user-images.githubusercontent.com/113594316/198232907-8275f39c-9031-4cf4-b0c4-8eb568e477ab.png)
- 7.	After finishing the sketch switch to drawing mode to plot the sketch in ISO standard
- 
- ![image](https://user-images.githubusercontent.com/113594316/198232997-7172a35b-79a2-45e4-88a3-5e741b4d90ce.png)
- 
- ![image](https://user-images.githubusercontent.com/113594316/198233011-28615257-fc2b-4c81-852a-49722c948e07.png)
- 
- 
- ## SKETCH
- ![image](https://user-images.githubusercontent.com/113594316/198233336-dd9f5c19-481b-486a-928a-99c32a732f89.png)
+   1. First, draw the main vertical and horizontal centre lines so that they intersect at the origin (0,0).
+   2. Offset the vertical centre line 50 mm to both the left and right sides to create two parallel lines at X = -50 mm and X = +50 mm.
+   3. Similarly, offset the horizontal centre line 60 mm upwards and downwards to create lines at Y = +60 mm and Y = -60 mm.
+    
+Mark the six outer hole centres at the following coordinates:
+
+  Top-left: (-50, 60)
+  
+  Top-right: (50, 60)
+  
+  Middle-left: (-70, 0), 20 mm further left from X = -50.
+  
+  Middle-right: (70, 0), 20 mm further right from X = +50.
+  
+  Bottom-left: (-50, -60)
+  
+  Bottom-right: (50, -60)
+  
+Finally, check that all six hole centres are correctly positioned according to the given dimension
+
+ <img width="466" height="390" alt="Screenshot 2026-11-15 095416" src="https://github.com/user-attachments/assets/81bb07d7-5087-4f74-85a3-629cf2ac37d7" />
+
+
+Step 2 – Draw Central Geometry
+
+   1.From the centre origin (0,0), draw the innermost circle with a radius of 16 mm (R16).
+   
+   2.Draw three more concentric reference circles with radii of 21 mm (R21), 32 mm (R32) and 40 mm (R40).
+   
+   3.Draw two vertical parallel lines through the centre, keeping them 3 mm away from the centre line on both sides (X = +3 mm and X = -3 mm). 
+      This creates a total gap width of 6 mm.
+      
+   4.Construct six radial slots or spokes within the circular region between R21 and R32.
+   
+   5.Make sure all circles and the central web pattern are properly aligned with the origin.
+
+<img width="697" height="587" alt="Screenshot 2026-11-15 095952" src="https://github.com/user-attachments/assets/6689d110-4146-4950-b7f2-86fbec8eeea3" />
+
+  
+   Step 3 – Construct Outer Circular Features
+   
+       1. Draw circles with a radius of 15 mm (R15) at all six outer hole centres.
+       
+       2. At the top-left, top-right, bottom-left and bottom-right positions, draw outer arcs with a radius of 21 mm (R21).
+       
+       3. At the middle-left and middle-right positions, draw concentric outer circles with a radius of 20 mm (R20).
+       
+       4. Check that all six circles are properly aligned with their respective centre points.
+
+       Step 4 – Connect Tangent Lines and Fillets
+       
+       1. Draw straight tangent lines connecting the top-left and middleleft outer arcs.
+       
+       2. Similarly, connect the bottom-left and middle-left arcs using straight tangent lines.
+       
+       3. Repeat the same process on the right side by connecting the top-right and middle-right arcs,
+         followed by the bottom-right and middle-right arcs.
+       
+       4. Create internal fillets with a radius of 20 mm (R20) between the top-left and top-right outer arcs,
+          ensuring they connect smoothly with the central R40 boundary.
+       
+       5. Repeat the same fillet construction at the bottom by connecting the bottom-left and bottom-right outer arcs.
+       
+       6. Finally, check that all tangent lines and fillets are smoothly connected without any gaps or overlaps.
+       
+
+   <img width="697" height="587" alt="Screenshot 2026-11-15 095952" src="https://github.com/user-attachments/assets/f42aebe2-059b-4cd8-a8c0-e80f30557df5" />
+
+
+       Step 5: Final Cleanup & Dimensioning 
+       
+       1. Trim all overlapping construction geometry to leave a clean outer boundary and inner features.
+       
+       2. Apply centerlines, dimensions, hatch/shading, and radius annotations matching the technical drawing.
+       
+
 
  ## OUTPUT
- 
+
+   <img width="971" height="707" alt="Screenshot 2026-11-15 151056" src="https://github.com/user-attachments/assets/6a6387a2-0c90-4d4a-9d11-814d4a659a7b" />
+
+   <img width="858" height="507" alt="Screenshot 2026-11-15 102226" src="https://github.com/user-attachments/assets/e5343364-af13-46e9-9568-7a59f36d1ec4" />
+
+
+
+
  
  ## RESULT
  Thus the given sketch is drawn and drafted using fusion 360 tool.
