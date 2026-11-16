@@ -62,7 +62,7 @@ Step 2 – Draw Central Geometry
        
        4. Check that all six circles are properly aligned with their respective centre points.
 
-       Step 4 – Connect Tangent Lines and Fillets
+   Step 4 – Connect Tangent Lines and Fillets
        
        1. Draw straight tangent lines connecting the top-left and middleleft outer arcs.
        
@@ -82,7 +82,7 @@ Step 2 – Draw Central Geometry
    <img width="697" height="587" alt="Screenshot 2026-11-15 095952" src="https://github.com/user-attachments/assets/f42aebe2-059b-4cd8-a8c0-e80f30557df5" />
 
 
-       Step 5: Final Cleanup & Dimensioning 
+    Step 5: Final Cleanup & Dimensioning 
        
        1. Trim all overlapping construction geometry to leave a clean outer boundary and inner features.
        
